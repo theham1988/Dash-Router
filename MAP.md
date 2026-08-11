@@ -23,13 +23,14 @@ a build scope the engineers can start from - plain md in the project folder, sam
 - [what litellm's free core actually ships](tickets/T1-litellm-free-core.md) -> free core covers the whole PoC (virtual keys, budgets, spend logs, admin UI, fallbacks, openrouter upstream). MIT core, no restriction on running it for clients as a managed service. 2026 had a supply-chain attack + auth CVEs, all patched by 1.84 - pin current (1.96.x), verify signed images.
 - [openrouter fees + what's honestly measurable](tickets/T2-openrouter-fees-measurement.md) -> credits fee 5.5% min $0.80. BYOK now free under $25k/month list price (changed aug 2026), 5% only above. for a client paying providers directly, day-one dollar savings are roughly zero without routing decisions - the gate number has to respect that.
 - [where it runs + who owns it](tickets/T5-where-it-runs-who-owns-it.md) -> isolated account on our cloud, one always-on VM, the compose stack. owner unnamed on purpose - one person end to end (build + pager + security feed), name assigned off-map by whoever Ham hands it to. designlilbro gets no SLA but a self-serve base_url rollback they can run at any hour. version pinned + cosign-verified, security-patches-only through the gate.
+- [does PoC data feed the audit](tickets/T8-poc-data-into-audit.md) -> held at the door, copy kept. no detector or briefing wiring inside the PoC - that waits until after the gate. but every pilot spend row lands in our own s3 from day one, and the gate deck plans one hand-run exhibit: the audit's proxies next to real per-request rows (noted in T6). whenever wiring comes, pilot data is efficiency-grade only - recovery claims never touch it.
 
 ## Not yet specified
 
 - pilot onboarding mechanics - key provisioning, what we tell designlilbro, rollback plan. hangs on the day-one cutover ticket.
 - whether the pilot sees a screen - litellm's admin UI as-is, something of ours, or nothing plus a report at the gate. hangs on the cutover shape.
 - whether a second pilot (an openrouter-credits client) carries the fees-saved story if designlilbro turns out to be all provider-direct. hangs on their spend picture + the gate-number decision.
-- what a paid v1 looks like if the numbers hold. stays foggy until the gate.
+- what a paid v1 looks like if the numbers hold - including the audit wiring T8 parked, which the s3 copy is retained for. stays foggy until the gate.
 
 ## Out of scope
 
