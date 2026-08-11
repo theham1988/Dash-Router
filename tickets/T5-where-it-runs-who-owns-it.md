@@ -26,3 +26,9 @@ uptime: best effort, no SLA number. designlilbro gets a documented one-line roll
 patching: freeze + security-only for the PoC window. pin the exact version (1.96.x today), verify the cosign signature on the image, move mid-pilot only for a security patch. the owner checks litellm's security feed weekly.
 
 this writes the ops paragraph of the build scope. the rollback posture also feeds [day-one cutover for designlilbro](T4-day-one-cutover.md) - the self-serve flip is now a requirement of whatever cutover shape T3 allows.
+
+## Post-close note (2026-08-11, from Ham in chat)
+
+Ham re-confirmed the close in his own words - our infra, single instance + postgres, pinned >=1.96 signed images, named owner on the security feed owning the patch cadence. same as the resolution; "our infra" = the isolated account on our cloud, the wall stays.
+
+the flag he asked for, on the record: the builder-with-Piotr slot is not Ham. the ticket always said "which eng", Ham is product, and the close has him handing the naming to someone else. nothing on this map puts the build on him. what does sit with him until the slot fills: filling it - plus the T3 card run he took for this week.

@@ -16,4 +16,4 @@ what goes in front of Zach end of september, and what "green" means.
 
 blocked on [designlilbro's AI-spend picture](T3-designlilbro-spend-picture.md) to size any of it.
 
-from [does PoC data feed the audit](T8-poc-data-into-audit.md) (closed): the deck plans one hand-run exhibit - pilot rows next to the audit's proxies (actual off-hours, actual retries). data comes off the s3 copy, analysis by hand, no product wiring. build it in when this ticket sets the number.
+from [does PoC data feed the audit](T8-poc-data-into-audit.md) (closed, revised): the deck plans one proxies-vs-real exhibit - actual off-hours, actual retries next to the audit's proxies. T8 got revised same day: the logs flow into the audit during the PoC, so the exhibit runs off the piped source, not a hand-run. build it in when this ticket sets the number.
