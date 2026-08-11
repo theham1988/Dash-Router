@@ -16,3 +16,7 @@ the pilot is designlilbro. before the cutover and the gate number can be decided
 checklist for Bruno/TK - we see their card natively, this is a query not an integration. if openrouter shows up in the merchants: pull their activity export the same week, the analytics window only looks back 30 days (see T2).
 
 why it matters: T2 says a provider-direct client yields roughly zero day-one fee savings. whether designlilbro has openrouter credits spend decides what number the gate can honestly show.
+
+## Progress
+
+- 2026-08-11: claimed (Ham). tried the AFK route first - the Metabase we can reach is the BlokID audit warehouse (no card ledger), the connected Slack is vauditpartners (Bruno/TK live on the dash.fi workspace), Drive has no pool sheet. so this resolves through Bruno/TK as the ticket guessed. the precise ask, paste-ready: [assets/T3-ask-for-bruno.md](../assets/T3-ask-for-bruno.md).

@@ -13,3 +13,5 @@ created: 2026-08-11
 what changes for designlilbro on day one: base-url swap on their existing setup vs new virtual keys per app. who holds the provider keys - theirs stay theirs behind our proxy, or ours. who has the conversation with them, and what's the rollback if the proxy misbehaves mid-pilot.
 
 informed by [what litellm's free core actually ships](T1-litellm-free-core.md) - free core supports both shapes - and blocked on [designlilbro's AI-spend picture](T3-designlilbro-spend-picture.md) for how they hold keys today.
+
+rollback posture landed in [where it runs + who owns it](T5-where-it-runs-who-owns-it.md): self-serve base_url flip, no SLA. this ticket works out the mechanics of that flip, not whether it exists.
