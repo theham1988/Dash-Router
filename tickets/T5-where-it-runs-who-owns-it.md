@@ -3,7 +3,7 @@ id: T5
 title: where it runs + who owns it
 label: wayfinder:grilling
 status: open
-assignee:
+assignee: Ham
 blocked_by: []
 created: 2026-08-11
 ---

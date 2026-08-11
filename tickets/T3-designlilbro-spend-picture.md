@@ -3,7 +3,7 @@ id: T3
 title: designlilbro's AI-spend picture
 label: wayfinder:task
 status: open
-assignee:
+assignee: Ham
 blocked_by: []
 blocks: [T4, T6]
 created: 2026-08-11

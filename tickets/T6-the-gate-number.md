@@ -15,3 +15,5 @@ what goes in front of Zach end of september, and what "green" means.
 [openrouter fees + what's honestly measurable](T2-openrouter-fees-measurement.md) constrains this hard: if designlilbro is provider-direct, the bookable dollars are caching fixes + attribution-driven cleanup, and a fees-saved number needs an openrouter-credits client to exist at all. so - which number, over what window, measured how (provider APIs as truth, reconciled to invoices), and what green unlocks: second client, the commercial conversation, or brain work.
 
 blocked on [designlilbro's AI-spend picture](T3-designlilbro-spend-picture.md) to size any of it.
+
+from [does PoC data feed the audit](T8-poc-data-into-audit.md) (closed): the deck plans one hand-run exhibit - pilot rows next to the audit's proxies (actual off-hours, actual retries). data comes off the s3 copy, analysis by hand, no product wiring. build it in when this ticket sets the number.
