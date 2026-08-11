@@ -1,7 +1,7 @@
 ---
 asset-for: T3
 created: 2026-08-11
-status: waiting on Bruno/TK
+status: openai side closed via admin key (8/11); card run = Ham, week of aug 11
 ---
 
 # the pull - designlilbro's AI spend from our card data
@@ -23,3 +23,7 @@ why this decides things: T2 closed on "provider-direct client = roughly zero day
 # paste-ready ask for the dash.fi slack
 
 Bruno / TK - for the router pilot: can you pull Designlilbro's card spend on AI merchants, Feb 1 to today, monthly by merchant, card names included? Same shape as the June pool pull, just one client. Two things inside it: split API vs ChatGPT/Claude subscriptions where the descriptor shows it, and if OpenRouter appears at all ping me same day - their export only looks back 30 days. Also a gut check: any chance they pay some AI providers off-card? :pray:
+
+# update 2026-08-11, later
+
+openai answered without the card: designlilbro has a live org admin key connected to the spend agent, read-only, 991 buckets of real direct usage. provider-direct, their key stays theirs, and the by-key usage gives the app split - item 7 above is done. Ham runs the card query himself this week, so the paste-ready ask is moot. items 1-6 are now his checklist, and the one answer that moves the map is item 5: openrouter as a merchant, yes or no.
